@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <div class = 'content_container'>
+        <h2 class = 'pdf_label'>PDF Link*</h2>
+        <input class = 'pdf_input' type="text">
+        <form id='video_fields'>
+            <!-- <div class = 'video_data'>
+                    <input class = 'video_input' type="text">
+                    <input class = 'video_input' type="text">
+                    <input class = 'video_input' type="text">
+                    <i class="fa fa-minus-circle delete_btn"></i>
+            </div> -->
+        </form>
+        <svg onclick="add_inputs()" class = 'add_button' xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+            <!-- <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"/> -->
+        </svg>
+        <!-- <button class='add_button' onclick="add_inputs()">ADD</button> -->
+        <button class = 'generate_btn' type="button" onclick="get_data()">SUBMIT</button>
+
+        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
